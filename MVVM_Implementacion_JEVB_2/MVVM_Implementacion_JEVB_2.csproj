@@ -17,12 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Modelo\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="Vista\Pagina1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Modelo\" />
   </ItemGroup>
 </Project>

@@ -16,7 +16,7 @@
                     PlaceholderColor="White"
                     Placeholder="Escribe un numero"
                     HorizontalOptions="StartAndExpand"
-                    Text="{Binding Mensaje}"
+                    Text="{Binding N1}"
                     Keyboard="Numeric"
                 />
             </StackLayout>
@@ -31,7 +31,7 @@
                     PlaceholderColor="White"
                     Placeholder="Escribe un numero"
                     HorizontalOptions="StartAndExpand"
-                    Text="{Binding Mensaje}"
+                    Text="{Binding N2}"
                     Keyboard="Numeric"
  />
             </StackLayout>
@@ -39,14 +39,14 @@
             Text="Sumar"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            Command="{Binding Alertacommand}"
+            Command="{Binding Sumarcommand}"
             TextTransform="None"
             Background="white"
             FontAttributes="Bold"
             CornerRadius="5"
         />
         <Label 
-            Text="Respuesta"
+            Text="{Binding R}"
             TextColor="White"
             HorizontalOptions="Center"
             FontAttributes="Bold"
